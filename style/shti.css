@@ -14,7 +14,9 @@ html, body {
     width: 240px;
 }
 
-.tile .tile-inner { background-repeat: no-repeat; background-position: center; background-size: cover !important; color: #FFF !important; text-shadow:
+.tile .tile-inner { background-repeat: no-repeat; background-position: center; background-size: cover !important; color: #FFF !important;
+    -webkit-text-stroke: 1px #000;
+    text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
