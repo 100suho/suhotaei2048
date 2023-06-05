@@ -10,13 +10,15 @@ html, body {
 .score-container:after, .best-container:after {
     color: #FFF;
 }
-
 .title img {
     width: 240px;
 }
 
-    
-.tile .tile-inner { background-repeat: no-repeat; background-position: center; background-size: cover !important; }
+.tile .tile-inner { background-repeat: no-repeat; background-position: center; background-size: cover !important; color: #FFF !important; text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   }
 
 .tile.tile-2     .tile-inner { background-image: url('../images/x2.png'); }
 .tile.tile-4     .tile-inner { background-image: url('../images/x4.png'); }
